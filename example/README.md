@@ -1,6 +1,6 @@
 # html_editor_enhanced_example
 
-Demonstrates how to use the html_editor_enhanced plugin.
+Demonstrates how to use the ann_html_editor plugin.
 
 ## Getting Started
 

@@ -1,4 +1,4 @@
-import 'package:html_editor_enhanced/html_editor.dart';
+import 'package:ann_html_editor/ann_html_editor.dart';
 import 'package:meta/meta.dart';
 
 /// Fallback controller (should never be used)

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:html_editor_enhanced/html_editor.dart';
+import 'package:ann_html_editor/ann_html_editor.dart';
 
 /// Manages all the callback functions the library provides
 class Callbacks {

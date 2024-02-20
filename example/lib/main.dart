@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:html_editor_enhanced/html_editor.dart';
+import 'package:ann_html_editor/ann_html_editor.dart';
 import 'package:file_picker/file_picker.dart';
 
 void main() => runApp(HtmlEditorExampleApp());

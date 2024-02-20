@@ -1,9 +1,9 @@
 # Flutter Html Editor - Enhanced
-[![pub package](https://img.shields.io/pub/v/html_editor_enhanced.svg)](https://pub.dev/packages/html_editor_enhanced)
+[![pub package](https://img.shields.io/pub/v/ann_html_editor.svg)](https://pub.dev/packages/ann_html_editor)
 
 Flutter HTML Editor Enhanced is a text editor for Android, iOS, and Web to help write WYSIWYG HTML code with the Summernote JavaScript wrapper.
 
-Note that the API shown in this README.md file shows only a part of the documentation and, also, conforms to the GitHub master branch only! So, here you could have methods, options, and events that aren't published/released yet! If you need a specific version, please change the GitHub branch of this repository to your version or use the online [API Reference](https://pub.dev/documentation/html_editor_enhanced/latest/) (recommended).
+Note that the API shown in this README.md file shows only a part of the documentation and, also, conforms to the GitHub master branch only! So, here you could have methods, options, and events that aren't published/released yet! If you need a specific version, please change the GitHub branch of this repository to your version or use the online [API Reference](https://pub.dev/documentation/ann_html_editor/latest/) (recommended).
 
 <table>
   <tr>
@@ -12,7 +12,7 @@ Note that the API shown in this README.md file shows only a part of the document
     <td align="center">Dark Mode and <pre>ToolbarPosition.belowEditor</pre></td>
   </tr>
   <tr>
-    <td><img alt="GIF example" src="https://raw.githubusercontent.com/tneotia/html-editor-enhanced/master/screenshots/html_editor_enhanced.gif" width="250"/></td>
+    <td><img alt="GIF example" src="https://raw.githubusercontent.com/tneotia/html-editor-enhanced/master/screenshots/ann_html_editor.gif" width="250"/></td>
     <td><img alt="Light" src="https://raw.githubusercontent.com/tneotia/html-editor-enhanced/master/screenshots/html_editor_light.png" width="250"/></td>
     <td><img alt="Dark" src="https://raw.githubusercontent.com/tneotia/html-editor-enhanced/master/screenshots/html_editor_dark.png" width="250"/></td>
   </tr>
@@ -113,7 +113,7 @@ More is on the way! File a feature request or contribute to the project if you'd
 
 ## Setup
 
-Add `html_editor_enhanced: ^2.5.0` as dependency to your pubspec.yaml.
+Add `ann_html_editor: ^2.5.0` as dependency to your pubspec.yaml.
 
 Make sure to declare internet support inside `AndroidManifest.xml`: `<uses-permission android:name="android.permission.INTERNET"/>`
 
@@ -128,7 +128,7 @@ For images, the package uses `FileType.image`, for video `FileType.video`, for a
 ## Basic Usage
 
 ```dart
-import 'package:html_editor/html_editor.dart';
+import 'package:ann_html_editor/ann_html_editor.dart';
 
 HtmlEditorController controller = HtmlEditorController();
 
@@ -156,7 +156,7 @@ Follow https://github.com/flutter/flutter/issues/80524 for updates on a potentia
 
 ## API Reference
 
-For the full API reference, see [here](https://pub.dev/documentation/html_editor_enhanced/latest/).
+For the full API reference, see [here](https://pub.dev/documentation/ann_html_editor/latest/).
 
 For a full example, see [here](https://github.com/tneotia/html-editor-enhanced/tree/master/example).
 
@@ -307,7 +307,7 @@ Method | Argument(s) | Returned Value(s) | Description
 
 ### Callbacks
 
-Every callback is defined as a `Function(<parameters in some cases>)`. See the [documentation](https://pub.dev/documentation/html_editor_enhanced/latest/) for more specific details on each callback.
+Every callback is defined as a `Function(<parameters in some cases>)`. See the [documentation](https://pub.dev/documentation/ann_html_editor/latest/) for more specific details on each callback.
  
 Callback | Parameter(s) | Description
 ------------ | ------------- | -------------
@@ -481,9 +481,9 @@ Notes:
 You can use these files from the package to avoid adding more asset files:
 
 ```html
-<script src="assets/packages/html_editor_enhanced/assets/jquery.min.js"></script>
-<link href="assets/packages/html_editor_enhanced/assets/summernote-lite.min.css" rel="stylesheet">
-<script src="assets/packages/html_editor_enhanced/assets/summernote-lite.min.js"></script>
+<script src="assets/packages/ann_html_editor/assets/jquery.min.js"></script>
+<link href="assets/packages/ann_html_editor/assets/summernote-lite.min.css" rel="stylesheet">
+<script src="assets/packages/ann_html_editor/assets/summernote-lite.min.js"></script>
 ```
 
 See the example HTML file [below](#example-html-for-filepath) for an actual example.
@@ -848,7 +848,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:html_editor_enhanced/html_editor.dart';
+import 'package:ann_html_editor/ann_html_editor.dart';
 
 class _ExampleState extends State<Example> {
   final HtmlEditorController controller = HtmlEditorController();
@@ -950,9 +950,9 @@ class _ExampleState extends State<Example> {
     <meta name="description" content="Flutter Summernote HTML Editor">
     <meta name="author" content="tneotia">
     <title>Summernote Text Editor HTML</title>
-    <script src="assets/packages/html_editor_enhanced/assets/jquery.min.js"></script>
-    <link href="assets/packages/html_editor_enhanced/assets/summernote-lite.min.css" rel="stylesheet">
-    <script src="assets/packages/html_editor_enhanced/assets/summernote-lite.min.js"></script>
+    <script src="assets/packages/ann_html_editor/assets/jquery.min.js"></script>
+    <link href="assets/packages/ann_html_editor/assets/summernote-lite.min.css" rel="stylesheet">
+    <script src="assets/packages/ann_html_editor/assets/summernote-lite.min.js"></script>
     <!--darkCSS-->
 </head>
 <body>
@@ -1132,4 +1132,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 >
 > Meanwhile, PRs are always welcome
 
-Original html_editor by [xrb21](https://github.com/xrb21) - [repo link](https://github.com/xrb21/flutter-html-editor). Credits for the original idea and original base code to him. This library is a fork of his repo.
+Original ann_html_editor by [xrb21](https://github.com/xrb21) - [repo link](https://github.com/xrb21/flutter-html-editor). Credits for the original idea and original base code to him. This library is a fork of his repo.
