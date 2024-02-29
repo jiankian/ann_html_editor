@@ -1,8 +1,10 @@
 name: ann_html_editor
 description: HTML rich text editor for Android, iOS, and Web, using the Summernote library.
   Enhanced with highly customizable widget-based controls, bug fixes, callbacks, dark mode, and more.
-version: 2.6.0+1
-homepage: https://github.com/tneotia/html-editor-enhanced
+  fork from https://github.com/tneotia/html-editor-enhanced fix iOS build error and dependency conflict, optimize custom media embed features
+
+version: 2.6.0+2
+homepage: https://github.com/jiankian/ann_html_editor
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
