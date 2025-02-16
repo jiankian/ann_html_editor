@@ -3,7 +3,7 @@ description: HTML rich text editor for Android, iOS, and Web, using the Summerno
   Enhanced with highly customizable widget-based controls, bug fixes, callbacks, dark mode, and more.
   fork from https://github.com/tneotia/html-editor-enhanced fix iOS build error and dependency conflict, optimize custom media embed features
 
-version: 2.6.0+2
+version: 2.6.0+3
 homepage: https://github.com/jiankian/ann_html_editor
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   # webview plugin
-  flutter_inappwebview: ^6.0.0
+  flutter_inappwebview: ^5.8.0
   # plugin to get webview's visible fraction for keyboard height adjustment
   visibility_detector: ^0.4.0+2
   # plugin to get when the keyboard is hidden via back (Android)
