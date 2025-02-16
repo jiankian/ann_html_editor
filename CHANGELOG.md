@@ -1,3 +1,8 @@
+## [2.6.1] = 2025-02-17
+* 升级到 Flutter 3.29.0
+* Fix dependency conflict, compatible Flutter 3.x
+* Update dependencies
+
 ## [2.6.0] = 2024-02-20
 * Fix dependency conflict, compatible Flutter 2.x
 * Update dependencies
